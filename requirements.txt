@@ -1,6 +1,8 @@
-asgiref == 3.2.5
-Django ==3.0.4
-gunicorn == 20.0.4
-pytz ==2019.3
-sqlparse==0.3.1
-whitenoise==5.0.1
+certifi==2020.6.20
+chardet==3.0.4
+gunicorn==20.0.4
+idna==2.10
+requests==2.24.0
+stripe==2.55.0
+urllib3==1.25.10
+whitenoise==5.2.0
