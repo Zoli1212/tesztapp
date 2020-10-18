@@ -1,1 +1,1 @@
-web: gunicorn democoffetestapp.wsgi --log-file
+web: gunicorn democoffetestapp.wsgi --log-file -
