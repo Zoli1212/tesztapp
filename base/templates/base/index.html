@@ -47,8 +47,9 @@
 			<div id="left-wrapper">
 				<img id="profile-pic" src="{% static 'images/r1.jpg' %}">
 				<div id="left-wrapper-header">
-					<h3>Egy kávéra meghívsz minket?</h3>
-					<h5>Teszt-Digital Startup</h5>
+					<h3>Are you inviting us for a coffee?</h3>
+					<h5>R-Digital Startup</h5>
+
 				</div>
 				<div style="clear:left"></div>
 				<hr>
@@ -56,13 +57,13 @@
 				<form action="{% url 'charge' %}" method="post" id="payment-form">
 					{% csrf_token %}
 					<div class="form-field-12">
-						<label for="amount">Válassz egy összeget:</label>
+						<label for="amount">Choose an amount:</label>
 						<br>
 						<br>
 						<select required name="amount" id="amount">
-						  <option selected value="5">$5 --- Itt van egy kávé ára :)</option>
-						  <option value="10">$10 --- Remélem felfejlődtök</option>
-						  <option value="25">$25 --- Jók az R-Digital tutorialok</option>
+						  <option selected value="5">$5 --- Here is a price of coffe:)</option>
+						  <option value="10">$10 --- I hope you have improved </option>
+						  <option value="25">$25 --- I also invite you for two cofees</option>
 						</select>
 					</div>
 
@@ -103,12 +104,13 @@
 				<img class="coffee-cup" src="{% static 'images/Coffee5.png' %}">
 				<img class="coffee-cup2" src="{% static 'images/Coffee10.png' %}">
 				<img class="coffee-cup3" src="{% static 'images/Coffee25.png' %}">
-				<h3>Támogasd a most induló IT vállalkozásunkat egy kávéra való adománnyal</h3>
-				<p>Figyelem Tesztalkalmazás! Oktatási célból!</p>
+				<h3>Support our-startup IT business with a donation for a coffee</h3>
+				
+				<p>Most induló Mesterséges Intelligencia startup-vállakozásunk 
 
-				<p>Minden videónkat nagy körültekintéssel készítjük! Java, Python, R, Statisztika, Gépi tanulás, Mesterséges Intelligencia témakörökben</p>
+				<p>All our instructional videos are made with great care Java, R, Python, Statistics, Math, Machine Learning, Artificial Intelligence Topics</p>
 				<hr>
-				<a href="" target="_blank" class="myButton">Töltsd le a forráskódot</a>
+				<a href="" target="_blank" class="myButton">You can watch our tutorial videos</a>
 			</div>
 		</div>
 	</div>
