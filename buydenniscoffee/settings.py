@@ -26,7 +26,7 @@ SECRET_KEY = '2vc8#$fzhh-z9h(-(5kl2kj)ijq-1_(s0j5g4&)+9z%0t30x-1'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['http://127.0.0.1', 'democoffetestapp.heroku.com']
+ALLOWED_HOSTS = ['http://127.0.0.1', 'democoffetestapp.herokuapp.com']
 
 
 # Application definition
